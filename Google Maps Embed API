@@ -1,5 +1,4 @@
-//Reverse Geocoding (JSON)
-//find piont of origin and extend rectangle
+//find piont of origin through reverse geocoding (JSON) and extend rectangle
 //Examine the square footage of area A. Calculate the amount of energy produced using recent industry standars 
 //After finding value, extend rectangle by checking boxes around A in a gridlike fashion
 	//use bounds of rectangle to cycle through points by utilizng logitude, latitude, and reverse goecoding
