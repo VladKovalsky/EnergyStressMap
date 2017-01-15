@@ -5,6 +5,13 @@
 		margin-top:10px;
 		margin-bottom:10px;
 	}
+	body {
+    background: #d0ebf4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d0ebf4, #D8EFF6, #E0F2F8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d0ebf4, #D8EFF6, #E0F2F8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d0ebf4, #D8EFF6, #E0F2F8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d0ebf4, #D8EFF6, #E0F2F8); /* Standard syntax */
+	}
 	</style>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -55,7 +62,7 @@
 				<div class = "row">
 					<div class = "col-xs-6">
 						<div class = container-fluid>
-							<div class="panel panel-success">
+							<div class="panel panel-danger">
 	  							<div class="panel-heading">
 	   								<h3 class="panel-title" style = "text-align:center;"><span class = "glyphicon glyphicon-grain"> Information</span></h3>
 	  							</div>
@@ -72,13 +79,14 @@
 	   								<h3 class="panel-title" style = "text-align:center"><span class = "glyphicon glyphicon-import"> Company</span></h3> 
 	  							</div>
 	  							<div class="panel-body" >
-	  								<p>Welcome "Company Name". Your last event was x and you have an upcoming event at y. <p>
+	  								<p>Welcome "Company Name/Perosn anme". Your last event was x and you have an upcoming event at y. Please choose the appropriate link below <p>
 	  								<hr />
-	   								 <p style = "text-align:center" ><a id = "company" class="btn btn-success btn-lg" href="Calendar.html" role="button">Add Food Dates</a></p>
+	   								 <p style = "text-align:center" ><a id = "company" class="btn btn-success btn-lg" href="Calendar.html" style="min-width:100%" role="button"><span class = "glyphicon glyphicon-import"></span> Company</a></p>
+	   								 <p style = "text-align:center" ><a id = "company" class="btn btn-success btn-lg" href="Calendar.html" style="min-width:100%" role="button"><span class = "glyphicon glyphicon-cutlery"></span> Consumer</a></p>
 
 	  							</div>
 							</div>
-							<div class="panel panel-success">
+							<!-- <div class="panel panel-danger">
 	  							<div class="panel-heading">
 	   								<h3 class="panel-title" style = "text-align:center"><span class = "glyphicon glyphicon-cutlery"> Consumer</span></h3> 
 	  							</div>
@@ -87,7 +95,7 @@
 	  								<hr />
 	   								 <p style = "text-align:center"><a id = "customer" class="btn btn-success btn-lg" href="Calendar.html" role="button">View Calendar</a></p>
 	  							</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
